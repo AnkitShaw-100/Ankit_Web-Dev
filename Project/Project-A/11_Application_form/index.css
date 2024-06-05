@@ -7,9 +7,10 @@
 }
 #application {
   /* background-color: white; */
+  padding-top: 7%;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-items: center;
   /* width: 705px; */
   /* height: 600px; */
 }
