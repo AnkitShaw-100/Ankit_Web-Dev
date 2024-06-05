@@ -39,9 +39,11 @@ brr.splice(1,0,'kunal');
 console.log(brr);
 console.log(typeof(brr));
 
+
+
 let arr1 = [10,20,30,11,21,44,51];
 
-let evenArray = arr1.filter(number)  {
+let evenArray = arr1.filter((number) =>  {
     return (number % 2) === 0;
     if(number%2 === 0) {
         return true;
@@ -49,6 +51,52 @@ let evenArray = arr1.filter(number)  {
     else {
     return false;
     }
-};
+});
 
 
+//3
+let ansArray = arr.map((number) => {
+    return number*number;
+})
+console.log(ansArray)
+
+
+let arr3 = [1,2,'Ankit',"Love","Babbar",null];
+let ans = arr3.filter((value) =>{
+    if(typeof(value) == 'number'){
+        return true;
+    }
+    else{
+        return false;
+    }
+});
+
+console.log(ans);
+
+
+//4
+let fullName = "babbar";
+for(let val of fullName) {
+    console.log(val);
+}
+
+//5
+
+let arr4 = [10,20,30,40];
+for(let value of arr4) {
+    console.log(value);
+}
+
+//5
+let arr5 = [10,20,30,40,50];
+
+let getSum = (arr5) => {
+    let sum = 0;
+    arr5.forEach((value) => {
+        sum = sum + value;
+    })
+    return sum;
+}
+
+let totalSum = getSum(arr5);
+console.log(totalSum);
