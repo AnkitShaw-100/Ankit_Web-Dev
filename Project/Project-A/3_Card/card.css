@@ -1,0 +1,98 @@
+.head{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px;
+    margin : auto;
+    text-align: center;
+}
+.lore{
+    margin: 9px;
+    font-size: 30px;
+    margin : auto;
+    text-align: center;
+
+}
+.image2{
+    width: 80px;
+    height: 80px;
+    
+    }
+.pay{
+    height: fit-content;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgb(210,225,241);
+background: linear-gradient(90deg, rgba(210,225,241,1) 0%, rgba(115,173,241,1) 100%);
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    box-shadow: 1px 1px 2px black;
+}
+.change_2{
+    text-align: center;
+    margin-left: 40px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.pay2{
+    padding: 10px;
+    width:385px;
+    border-radius: 10px;
+    background-color: rgb(70, 47, 112);
+    font-size: 32px;
+    color: white;
+    border: 0;
+    /* outline: 0; */
+    box-shadow: 1px 1px 2px black;
+}
+.pay3 p{
+    margin:0;
+}
+
+.Cancel{
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(41, 32, 109);
+}
+.image1{
+    width: 425px;
+    height: 250px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.arrange{
+    padding: 20px;
+    display : flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 425px;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}

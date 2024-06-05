@@ -1,0 +1,48 @@
+.img1{
+    border-radius: 100px;
+}
+.head2{
+    font-size: 50px;
+    color: rgb(0, 18, 155);
+    margin: 0px;
+}
+.head3{
+    font-size:20px;
+    margin: 0px;
+    
+}
+.head4{
+    margin: 0px;
+    font-size: 40px;
+    color: rgb(0, 18, 155);
+    background-color: white;
+}
+.head5{
+    font-size: 30px;
+    margin: 0px;
+    color: rgb(0, 18, 155);
+}
+.con{
+    margin: 0px;
+    font-size: 25px;
+    font-family: Verdana;
+    background-color: white;
+}
+.kaju{
+    margin: auto;
+    height: 900px;
+    width: 1000px;
+}
+.mithai{
+    background-color: white;
+    display: flex;
+    align-items: end;
+}
+body{
+    background-color: bisque;
+}
+.raju{
+   padding: 25px;
+   background-color: white;
+/* background-color: red; */
+}
