@@ -6,7 +6,7 @@
 
 #header {
   background-color: black;
-  height: 60px; 
+  height: 60px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -20,9 +20,9 @@
 }
 
 #bars {
-  height: 30px;
-  width: 30px;
-  margin-right: 15px;
+  height: 25px;
+  width: 25px;
+  margin-right: 12px;
 }
 
 #youtube {
@@ -53,8 +53,8 @@
 }
 
 #search_button {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,190 +66,56 @@
   align-items: center;
 }
 
-#camera, #bell, #user {
-  height: 30px;
-  width: 30px;
+#camera,
+#bell,
+#user {
+  height: 25px;
+  width: 25px;
   margin-left: 15px;
   cursor: pointer;
 }
 
-#header2{
+#header2 {
   background-color: black;
   height: 38px;
   width: 100vw;
-  display:flex ;
-  justify-content: space-evenly;
-  /* margin-top: 0.4px; */
+  display: flex;
+  gap: 10px;
+  /* overflow-x: scroll; */
+  /* -webkit-scrollbar : hidden; */
+  /* justify-content: space-evenly; */
   padding-top: 3px;
+  padding-left: 70px;
 }
-#all_button{
-  color: rgb(255, 255, 255);
+/* #header2::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+
+
+#header2 h4 {
+  color: ghostwhite;
   border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 50px;
+  border-radius: 10px;
+  height: fit-content;
   background-color: rgb(60, 57, 57);
   text-align: center;
-  padding-top: 4px;
+  /* padding-top: 4px; */
+  width: fit-content !important;
+  padding: 4px 5px;
 }
 
-#cmp_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 200px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#physics_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#neet_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 65px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#chess_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 110px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#sudoku_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#sm_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 120px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#trading_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#maths_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#news_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
+#left_bar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background-color: black;
+  height: calc(100vh - 60px);
   width: 60px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
+  padding-top: 15px;
+  color: white;
 }
-#skin_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 100px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#editng_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#vlogging_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 90px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#eng_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 100px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#fashion_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 90px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#stc_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 160px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
-}
-#nty_button{
-  color: ghostwhite;
-  border: 1px solid rgb(89, 83, 83);
-  border-radius: 8px;
-  height: 30px;
-  width: 100px;
-  background-color: rgb(60, 57, 57);
-  text-align: center;
-  padding-top: 4px;
+#icons{
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  margin-bottom: 25px;
 }
