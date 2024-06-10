@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: black;
+  height: 70px; 
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#tab {
+  display: flex;
+  align-items: center;
+}
+
+#bars {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+#youtube {
+  width: 120px;
+  height: auto;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+}
+
+#search_box {
+  border: 2px solid white;
+  height: 40px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#search_box p {
+  color: #fff;
+  margin: 0;
+}
+
+#search_button {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#last {
+  display: flex;
+  align-items: center;
+}
+
+#camera, #bell, #user {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+}
