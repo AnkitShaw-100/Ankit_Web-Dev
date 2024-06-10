@@ -6,7 +6,7 @@
 
 #header {
   background-color: black;
-  height: 70px; 
+  height: 60px; 
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@
 }
 
 #search_box {
-  border: 2px solid white;
+  border: 2px solid rgb(51, 49, 49);
   height: 40px;
   width: 600px;
   border-radius: 20px;
@@ -47,13 +47,14 @@
 }
 
 #search_box p {
-  color: #fff;
+  font-size: 20px;
+  color: #867d7d;
   margin: 0;
 }
 
 #search_button {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,4 +71,185 @@
   width: 30px;
   margin-left: 15px;
   cursor: pointer;
+}
+
+#header2{
+  background-color: black;
+  height: 38px;
+  width: 100vw;
+  display:flex ;
+  justify-content: space-evenly;
+  /* margin-top: 0.4px; */
+  padding-top: 3px;
+}
+#all_button{
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 50px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+
+#cmp_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 200px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#physics_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#neet_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 65px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#chess_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 110px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#sudoku_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#sm_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 120px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#trading_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#maths_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#news_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 60px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#skin_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#editng_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#vlogging_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 90px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#eng_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#fashion_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 90px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#stc_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 160px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
+}
+#nty_button{
+  color: ghostwhite;
+  border: 1px solid rgb(89, 83, 83);
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(60, 57, 57);
+  text-align: center;
+  padding-top: 4px;
 }
